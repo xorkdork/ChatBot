@@ -33,6 +33,7 @@ public class Chatbot
 		}
 			else 
 			{
+				
 				result = "short words";
 			}
 		else if(randomPosition == 1)
@@ -44,17 +45,17 @@ public class Chatbot
 			}
 			else
 			{
-				result = "try again";
+				result = "nope";
 			}
 			
 		}
 		if(memeChecker(currentInput))
 		{
-			result = "wow," + currentInput + "is a meme, wahoo!";
+			result = " wow, " + currentInput + " is a meme, wahoo!";
 		}
 		else
 		{
-			result = "not a meme, try again";
+			result = " not a meme, try again";
 			
 		}
 	
@@ -97,7 +98,10 @@ public class Chatbot
 	}
 	private boolean contentChecker(String input)
 	{
-		boolean 
+		boolean hasContent = false;
+		return hasContent;
+	
+		
 	}
 	private boolean memeChecker(String input)
 	{
@@ -122,7 +126,7 @@ public class Chatbot
 	{
 		boolean okToQuit = false;
 	
-		if (input != null && input.equals("sayonara"))
+		if (input != null && input.equals("Scumbag"))
 		{
 			okToQuit = true;
 		}
