@@ -21,4 +21,28 @@ public class ChatbotUser
 	{
 		return age;
 	}
+	public boolean isHasTattoos()
+	{
+		return hasTattoos;
+	}
+	public boolean isNeedsCorrectiveLenses()
+	{
+		return needsCorrectiveLenses;
+	}
+	public void setNeedsCorrectiveLenses(boolean needsCorrectiveLenses)
+	{
+		this.needsCorrectiveLenses = needsCorrectiveLenses;
+	}
+	public void setUserName(String userName)
+	{
+		this.userName = userName;
+	}
+	public void setAge(int age)
+	{
+		this.age = age;
+	}
+	public void setHasTattoos(boolean hasTattoos)
+	{
+		this.hasTattoos = hasTattoos;
+	}
 }
