@@ -8,7 +8,7 @@ import chatbot.view.ChatbotView;
 /**
  * Runs the Chatbot.
  * @author xorkdork
- * @version 1.2 10/9/14 
+ * @version final 12/02/14 
  */
 public class ChatbotAppController
 {

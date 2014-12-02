@@ -46,7 +46,7 @@ public class Chatbot
 	{
 		return name;
 	}
-
+	// Le Meme List
 	private void fillTheMemeList()
 	{
 		memeList.add("kitties");
@@ -136,7 +136,7 @@ public class Chatbot
 			}
 			else if (randomPosition == 3)
 			{
-				// Talk about the user here :D
+				// Talk about the user here
 			}
 			else if (randomPosition == 4)
 			{
