@@ -6,6 +6,7 @@ public class ChatbotUser
 	private int age;
 	private boolean hasTattoos;
 	private boolean needsCorrectiveLenses;
+	// things about the user
 	public ChatbotUser()
 	{
 		this.userName = "";

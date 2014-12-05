@@ -56,7 +56,7 @@ public class Chatbot
 		memeList.add("y u no");
 
 	}
-
+	// callers
 	public int getChatCount()
 
 	{
@@ -161,7 +161,7 @@ public class Chatbot
 		updateChatCount();
 		return result;
 	}
-
+	// checks what the user input to see if it is relevant
 	private boolean userInputChecker(String userInput)
 	{
 		boolean matchesInput = false;
@@ -198,7 +198,7 @@ public class Chatbot
 		return hasContent;
 
 	}
-
+	// checks to see if user input a meme from meme list
 	private boolean memeChecker(String input)
 	{
 		boolean isAMeme = false;
